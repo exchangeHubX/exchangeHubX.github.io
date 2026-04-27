@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkJ2coin_com_api_docs=globalThis.webpackChunkJ2coin_com_api_docs||[]).push([[9647],{7121(c,s,e){e.r(s),e.d(s,{default:()=>l});e(6540);var a=e(4164),o=e(7559),r=e(5500),i=e(2831),n=e(1656),u=e(4848);function l(c){return(0,u.jsx)(r.e3,{className:(0,a.A)(o.G.wrapper.docsPages),children:(0,u.jsx)(n.A,{children:(0,i.v)(c.route.routes)})})}}}]);
