@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.10.0">
 <title data-rh="true">Websocket 接口 | J2coin.com API</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://exchangehubx.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://exchangehubx.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://exchangehubx.github.io/docs/common/websocket/"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Websocket 接口 | J2coin.com API"><meta data-rh="true" name="description" content="概述"><meta data-rh="true" property="og:description" content="概述"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://exchangehubx.github.io/docs/common/websocket/"><link data-rh="true" rel="alternate" href="https://exchangehubx.github.io/docs/common/websocket/" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://exchangehubx.github.io/en/docs/common/websocket/" hreflang="en"><link data-rh="true" rel="alternate" href="https://exchangehubx.github.io/docs/common/websocket/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Websocket 接口","item":"https://exchangehubx.github.io/docs/common/websocket"}]}</script><link rel="stylesheet" href="/assets/css/styles.6c42065f.css">
-<script src="/assets/js/runtime~main.c2fee289.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.212d2deb.js" defer="defer"></script>
 <script src="/assets/js/main.51f76d02.js" defer="defer"></script>
 </head>
 <body>
@@ -20,7 +20,7 @@
 <li class="">不需要多次创建 TCP 请求和销毁，节约宽带和服务器的资源。</li>
 <li class="">强烈建议开发者使用 WebSocket API 获取市场行情和买卖深度等信息。</li>
 </ul>
-<table><thead><tr><th>域名</th><th>WebSocket API</th><th>建议使用</th></tr></thead><tbody><tr><td>现货频道</td><td><code>wss://ws.j2coin.com/ws</code></td><td>主域名，现货共频道</td></tr><tr><td>合约频道</td><td><code>wss://fws.j2coin.com/ws</code></td><td>主域名，合约频道</td></tr></tbody></table>
+<table><thead><tr><th>域名</th><th>WebSocket API</th><th>建议使用</th></tr></thead><tbody><tr><td>现货频道</td><td><code>wss://open-ws.j2coin.com</code></td><td>主域名，现货共频道</td></tr><tr><td>合约频道</td><td><code>wss://open-fws.j2coin.com</code></td><td>主域名，合约频道</td></tr></tbody></table>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="连接">连接<a href="#连接" class="hash-link" aria-label="连接的直接链接" title="连接的直接链接" translate="no">​</a></h2>
 <p><strong>连接说明：</strong></p>
 <p><strong>连接限制</strong>：300 次连接请求/IP/5 分钟，单个 IP 最多可以创建 100 个连接</p>
